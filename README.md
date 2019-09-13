@@ -43,21 +43,21 @@ $ ./ansible-dynamic-inventory.py --list|json_pp
 {
    "_meta" : {
       "hostvars" : {
-         "dsw1-site1" : {
+         "dsw1-site1.corp.example" : {
             "location" : "site1",
             "sysname" : "dsw1-site1",
             "type" : "network",
             "hardware" : "J8697A Switch 5406zl",
             "ansible_network_os" : "procurve"
          },
-         "dsw2-site1" : {
+         "dsw2-site1.corp.example" : {
             "location" : "site1",
             "sysname" : "dsw2-site1",
             "type" : "network",
             "hardware" : "J8697A Switch 5406zl",
             "ansible_network_os" : "procurve"
          },
-         "asw1-site1" : {
+         "asw1-site1.corp.example" : {
             "ansible_network_os" : "procurve",
             "hardware" : "J9574A 3800-48G-PoE+-4SFP+ Switch",
             "type" : "network",
